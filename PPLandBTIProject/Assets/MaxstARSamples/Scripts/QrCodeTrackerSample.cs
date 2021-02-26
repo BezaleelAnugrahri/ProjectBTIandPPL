@@ -135,8 +135,6 @@ public class QrCodeTrackerSample : ARBehaviour
             foreach (var trackable in QrCodeTrackablesMap[key])
             {
                 trackable.OnTrackFail();
-				
-				QrCodeOffTrigger();
             }
 		}
 	}
@@ -152,6 +150,8 @@ public class QrCodeTrackerSample : ARBehaviour
         {
             return;
         }
+
+        QrCodeOffTrigger();
 
         cameraBackgroundBehaviour.UpdateCameraBackgroundImage(state);
 
