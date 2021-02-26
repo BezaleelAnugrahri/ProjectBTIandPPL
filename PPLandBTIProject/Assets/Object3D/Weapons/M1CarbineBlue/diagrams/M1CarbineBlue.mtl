@@ -1,0 +1,255 @@
+# Blender3D MTL File: 
+# Material Count: 23
+newmtl BarrelBand:blinn1SG_Bband.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Bband.jpg
+
+
+newmtl sightRear:blinn4SG_BSightRear4.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear4.jpg
+
+
+newmtl Barrel:blinn1SG_Bbarrel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Bbarrel.jpg
+
+
+newmtl sightRear:blinn3SG_BSightRear3.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear3.jpg
+
+
+newmtl TriggerAssy1:blinn2SG_BTriggerAssy1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BTriggerAssy1.jpg
+
+
+newmtl stock2:blinn1SG_Bstock.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Bstock.jpg
+
+
+newmtl Lug:blinn1SG_BLug.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BLug.jpg
+
+
+newmtl sightRear:blinn5SG_BSightRear5.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear5.jpg
+
+
+newmtl HandguardNew:handguar_Bhandguard.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Bhandguard.jpg
+
+
+newmtl TriggerAssy:blinn4SG_BTriggerAssy3.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BTriggerAssy3.jpg
+
+
+newmtl OpenBolt:blinn1SG_BSlideStop.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSlideStop.jpg
+
+
+newmtl SightFront:blinn1SG_BsightFront.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BsightFront.jpg
+
+
+newmtl Thingie:blinn1SG_BThingie.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BThingie.jpg
+
+
+newmtl Mag2:blinn1SG_Bmagazine.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Bmagazine.jpg
+
+
+newmtl TriggerAssy1:blinn5SG_BTriggerAssy4.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BTriggerAssy4.jpg
+
+
+newmtl sightRear:blinn1SG_BSightRear1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear1.jpg
+
+
+newmtl sightRear:blinn6SG_BSightRear6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear6.jpg
+
+
+newmtl BoltFixed:blinn2SG_BBolt2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BBolt2.jpg
+
+
+newmtl sightRear:blinn2SG_BSightRear2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSightRear2.jpg
+
+
+newmtl ButtPlateFinal:blinn1_BButt.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BButt.jpg
+
+
+newmtl TriggerAssy1:blinn3SG_BTriggerAssy2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BTriggerAssy2.jpg
+
+
+newmtl SlideRail:blinn1SG_BSlide.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BSlide.jpg
+
+
+newmtl RecvrMarks:blinn2SG_BRecvrMark.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BRecvrMark.jpg
+
+

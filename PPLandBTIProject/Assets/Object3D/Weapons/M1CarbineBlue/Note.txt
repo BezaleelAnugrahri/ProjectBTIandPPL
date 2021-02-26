@@ -1,0 +1,26 @@
+US M1 Carbine
+
+Thank you for downloading my second model.
+
+I was happy because I thought I made a historically accurate model. Then I showed it to some old timers and they pointed out so many things that were not correct. Then I was sad.
+
+Oh well, I had fun making it. I'll get around to doing the correct models when I have time.
+
+Future projects - Historically accurate versions of
+M1 Carbine 1942 (original)
+M1A1 Carbine (folding)
+M1 Carbine 1944 (adjustable sights)
+M2 Carbine (full automatic)
+Texturing and scaling of my M1911A1 available on this site (so it matches the carbine)
+
+This is my first try at hand painted textures so I textured each little piece separately to be more accurate. I suppose you can combine all the pieces into 1 mesh when the textures are in place.
+
+The texture maps are in the M1CarbineBlue folder.
+The diagrams about which mesh connects to which texture are in the diagrams folder.
+
+As usual, copyright - shmopyrite! Feel free to use it. As I said, I had fun doing this, so enjoy. If you use it for anything, just let me know so I can enoy your work too. Or better yet, send me some renders. I realize there are lots of extremely talented 3d artists out there who are much, much better than I am. I would love to see your work.
+
+If you have any problems with this or just want to give me a comment about it, contact me at chucknepo@yahoo.com
+
+Thanks,
+Chuck
