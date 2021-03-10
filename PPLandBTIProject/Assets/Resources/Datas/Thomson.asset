@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af171c0a2957d704cbff5035f2a68d2c, type: 3}
+  m_Name: Thomson
+  m_EditorClassIdentifier: 
+  qrCodeARTrackerName: Thompson
+  objectARName: M1 Thomson
+  objectDescInd: Senapan mesin ringan Thompson adalah senapan mesin ringan Amerika
+    yang ditemukan oleh John T. Thompson pada tahun 1918 yang menjadi terkenal selama
+    era Larangan, menjadi senjata khas dari berbagai sindikat kejahatan terorganisir
+    di Amerika Serikat. Itu adalah pemandangan umum di media saat itu, digunakan
+    oleh petugas penegak hukum dan penjahat. [18] Senapan mesin ringan Thompson juga
+    dikenal secara informal sebagai "Tommy Gun", "Annihilator", "Chicago Typewriter",
+    "Trench Broom", "Chicago Submachine", "Chicago Piano", "Chicago Style", "Chicago
+    Style", "Chicago Organ Grinder", "Drum Gun", "Chopper", dan hanya "the Thompson".
+  objectDescEng: "The Thompson submachine gun is an American submachine gun invented
+    by John T. Thompson in 1918 which became infamous during the Prohibition era,
+    being a signature weapon of various organized crime syndicates in the United
+    States. It was a common sight in the media of the time, being used by both law
+    enforcement officers and criminals.[18] The Thompson submachine gun was also
+    known informally as the \"Tommy Gun\", \"Annihilator\", \"Chicago Typewriter\",
+    \u201CTrench Broom\u201D, \"Chicago Submachine\", \"Chicago Piano\", \"Chicago
+    Style\", \"Chicago Organ Grinder\", \"Drum Gun\",\"the Chopper\", and simply
+    \"the Thompson\"."
+  prefabsObj: {fileID: 3754699625153190447, guid: fd0ddd10a08f26145a580e423a6f9b58,
+    type: 3}
+  englishNarator: {fileID: 0}
+  naratorIndonesia: {fileID: 0}

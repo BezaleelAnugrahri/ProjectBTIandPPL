@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af171c0a2957d704cbff5035f2a68d2c, type: 3}
+  m_Name: Sten
+  m_EditorClassIdentifier: 
+  qrCodeARTrackerName: StenMk2
+  objectARName: Sten Mark 2
+  objectDescInd: "STEN adalah keluarga dari senapan mesin ringan Inggris yang dilengkapi
+    dengan ukuran 9 \xD7 19mm dan digunakan secara luas oleh pasukan Inggris dan
+    Persemakmuran sepanjang Perang Dunia II dan Perang Korea juga ketika tentara
+    Inggris datang ke Indonesia. Mereka memiliki desain yang sederhana dan biaya
+    produksi yang sangat rendah, sehingga mereka juga merupakan senjata pemberontak
+    yang efektif untuk kelompok perlawanan."
+  objectDescEng: "The STEN was a family of British submachine guns chambered in 9\xD719mm
+    and used extensively by British and Commonwealth forces throughout World War
+    II and the Korean War also when British army comes to Indonesia. They had a simple
+    design and very low production cost, so they were also effective insurgency weapons
+    for resistance groups."
+  prefabsObj: {fileID: 5708452356078598299, guid: 80c89917c5062cb41a9e4657241221ec,
+    type: 3}
+  englishNarator: {fileID: 0}
+  naratorIndonesia: {fileID: 0}

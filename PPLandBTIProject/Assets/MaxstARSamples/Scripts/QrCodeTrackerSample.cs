@@ -11,23 +11,7 @@ using maxstAR;
 
 public class QrCodeTrackerSample : ARBehaviour
 {	
-	#region EDITING_SITE(1)
-	[SerializeField]
-	private string[] ObjectNames;
-	private bool choice;
-    
-    [TextArea(3, 1000)]
-	public string[] History;
-    [TextArea(3,1000)]
-	public string[] Sejarah;
-	
-	public AudioSource[] HistoryNarator;
-	public AudioSource[] SejarahNarator;
-	
-	public Text nameText;
-	public Text historyText;
-	#endregion
-	
+
     private CameraBackgroundBehaviour cameraBackgroundBehaviour = null;
 
     private string defaultSearchingWords = "[DEFUALT]";
@@ -48,9 +32,9 @@ public class QrCodeTrackerSample : ARBehaviour
 
 	void Start()
 	{
-		PlayerPrefs.SetString("Choose", "");//default state
-		choice = false;
-		
+
+        OnTrackerLost();
+
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;
 
@@ -151,7 +135,8 @@ public class QrCodeTrackerSample : ARBehaviour
             return;
         }
 
-        QrCodeOffTrigger();
+        //clear editing function
+        OnTrackerLost();
 
         cameraBackgroundBehaviour.UpdateCameraBackgroundImage(state);
 
@@ -177,8 +162,10 @@ public class QrCodeTrackerSample : ARBehaviour
                     {
                         qrCodeTrackable.OnTrackSuccess(
                             "", trackable.GetName(), trackable.GetPose());
-							
-						QrCodeOnTrigger(trackable.GetName());
+					    
+                        //call editing function
+                        OnTrackerDetected(trackable.GetName());
+
                     }
 						
 					isNotFound = false;        
@@ -224,70 +211,24 @@ public class QrCodeTrackerSample : ARBehaviour
 		TrackerManager.GetInstance().StopTracker();
 		TrackerManager.GetInstance().DestroyTracker();
 		StopCamera();
+    }
 
-	}
-	
-	
-	#region EDITING_SITE(2)
-	void QrCodeOnTrigger(string name){
-		
-		int ArrayLength = ObjectNames.Length;
-		
-		for(int i = 0; i < ArrayLength; i++){
-			
-			if(ObjectNames[i].Contains(name)){
-		
-				PlayerPrefs.SetString("Choose", name);
-				//Debug.Log("Trackable detected : " + name);
+    #region Editing_Function
 
-                nameText.text = ObjectNames[i];
-				
-				if(choice == true){
-					historyText.text = History[i];
-				}else{
-					historyText.text = Sejarah[i];
-				}
-				
-			} 
-		}
-	}
-	
-	void QrCodeOffTrigger(){
-		
-		PlayerPrefs.SetString("Choose", "");
-		//Debug.Log("QR Code Lost...");
-		
-		nameText.text = "";
-		historyText.text = "";
-	}
-	
-	public void AudioEnglish(){
-		string name = PlayerPrefs.GetString("Choose");
-		
-		for (int i = 0; i < HistoryNarator.Length; i++)
-		{
-			if (HistoryNarator[i].gameObject.name.Contains(name)){
-				choice = true;
-				HistoryNarator[i].GetComponent<AudioSource>().Play();
-				Debug.Log("English Narator for = " + name + "has been played");
-				
-			}
-		}
-		
-	}
-	
-	public void AudioIndonesia(){
-		string name = PlayerPrefs.GetString("Choose");
-		
-		for (int i = 0; i < SejarahNarator.Length; i++)
-		{
-			if (SejarahNarator[i].gameObject.name.Contains(name)){
-				choice = false;
-				SejarahNarator[i].GetComponent<AudioSource>().Play();
-				Debug.Log("Indonesian Narator for = " + name + "has been played");
-				
-			}
-		}
-	}
-	#endregion
+    void OnTrackerDetected(string trackerName)
+    {
+
+        PlayerPrefs.SetString("Choose", trackerName);
+
+    }
+
+    void OnTrackerLost()
+    {
+
+        PlayerPrefs.SetString("Choose", "");//default state
+    
+    }
+
+    #endregion
+
 }
