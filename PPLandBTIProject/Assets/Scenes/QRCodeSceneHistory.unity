@@ -2065,6 +2065,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2153179951024040892, guid: b48cb3a8fa229344683c285b71174dca,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2153179951024040893, guid: b48cb3a8fa229344683c285b71174dca,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -2872,6 +2877,24 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 1930386887}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1930386889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 435735890714239411, guid: aa394affbf655d74b92ef0b2af884136,
+    type: 3}
+  m_PrefabInstance: {fileID: 1930386887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1930386890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930386889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699d3e5a3b693ed418fb586e4d38e0ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2062592106
 PrefabInstance:
   m_ObjectHideFlags: 0
